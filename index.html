@@ -9,11 +9,13 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./assets/css/global.css">
     <link rel="stylesheet" href="./assets/css/pokedex.css">
+    <link rel="stylesheet" href="./assets/css/pokemon-info.css">
 
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
+
     <title>Pokedex</title>
 </head>
 <body>
@@ -21,6 +23,120 @@
     <section class="content">
         <h1>Pokedex</h1>
         <ol id="pokemonList" class="pokemons"></ol>
+
+        <div class="pokemon-info-container">
+
+            <div class="info-header">
+                <div class="info-title">
+                    <h2>Bulbasaur</h2>
+                    <p class="number">#001</p>
+                </div>
+                <div class="info-img">
+                    <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/1.svg" alt="">
+                </div>
+            </div>
+
+            <div class="about-content">
+                <div class="info-type">
+                    <p>grass</p>
+                </div>
+
+                <div class="info-subtitle">
+                    <h4>About</h4>
+                </div>
+
+                <div class="about-details">
+                    <div class="about-header">
+                        <div>
+                            <div class="about-title">
+                                <h4>Weight</h4>
+                            </div>
+                            <div class="about-text">
+                                <p>8.5kg</p>
+                            </div>    
+                        </div>
+                        
+                        <div>
+                            <div class="about-title">
+                                <h4>Weight</h4>
+                            </div>
+                            <div class="about-text">
+                                <p>8.5kg</p>
+                            </div>
+                        </div>
+                        
+                        <div>
+                            <div class="about-title">
+                                <h4>Weight</h4>
+                            </div>
+                            <div class="about-text">
+                                <p>8.5kg</p>
+                                <p>8.5</p>
+                            </div>
+                        </div>
+                            
+                    </div>
+                        
+                </div>
+
+                <div class="stats-content">
+                    <div class="info-subtitle">
+                        <h4>Base Stats</h4>
+                    </div>
+                    <div class="stats">
+                        <div class="stat">
+                            <span class="stat-name">HP</span>
+                            <span class="base-stat">039</span>
+                            <div class="progres-bar">
+                                <div></div>
+                            </div>
+                        </div>
+
+                        <div class="stat">
+                            <span class="stat-name">ATK</span>
+                            <span class="base-stat">039</span>
+                            <div class="progres-bar">
+                                <div></div>
+                            </div>
+                        </div>
+
+                        <div class="stat">
+                            <span class="stat-name">DEF</span>
+                            <span class="base-stat">039</span>
+                            <div class="progres-bar">
+                                <div></div>
+                            </div>
+                        </div>
+
+                        <div class="stat">
+                            <span class="stat-name">SATK</span>
+                            <span class="base-stat">039</span>
+                            <div class="progres-bar">
+                                <div></div>
+                            </div>
+                        </div>
+
+                        <div class="stat">
+                            <span class="stat-name">SDEF</span>
+                            <span class="base-stat">039</span>
+                            <div class="progres-bar">
+                                <div></div>
+                            </div>
+                        </div>
+
+                        <div class="stat">
+                            <span class="stat-name">SPD</span>
+                            <span class="base-stat">039</span>
+                            <div class="progres-bar">
+                                <div></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+
+        </div>
         
         <div class="pagination">
             <button id="loadMoreButton" type="button">

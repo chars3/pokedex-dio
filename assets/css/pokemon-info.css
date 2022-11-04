@@ -1,0 +1,83 @@
+.pokemon-info-container {
+    display: grid;
+    border: 1px solid #333;
+    border-radius: 10px;
+    max-width: 370px;
+    padding: 10px;
+}
+
+/* info-Header */
+
+.info-header {
+    padding: 15px;
+    position: relative;
+    height: 240px;
+    width: 100%;
+    background-color: #F57D31;
+    color: #fff;
+    border-radius: 5px 5px 0 0;
+}
+
+.info-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.info-img {
+    display: flex;
+    justify-content: center;
+}
+
+.info-type {
+    display: flex;
+    justify-content: center;
+}
+
+.info-subtitle {
+    display: flex;
+    justify-content: center;
+}
+
+.about-content {
+    padding-top: 45px;
+    background-color: #fff;
+    border-radius: 0 0 5px 5px;
+    border: 2px solid #F57D31;
+}
+
+/* about  */
+
+.about-header {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+
+/* Stats  */
+.stats {
+    display: grid;
+    padding: 10px;
+}
+
+.stat {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 0.25rem;
+}
+
+.stat-name {
+    width: 50px;
+    text-align: end;
+}
+
+.progres-bar {
+    grid-area: progress-bar;
+    width: 210px;
+    height: 12px;
+    border-radius: 10px;
+    background-color: #ccc;
+}
+
