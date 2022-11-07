@@ -19,7 +19,8 @@ function convertPokeApiDetailToPokemon(pokeDetail) {
     
     pokemon.photo = pokeDetail.sprites.other.dream_world.front_default
 
-
+    pokemon.weight = pokeDetail.weight
+    pokemon.height = pokeDetail.height
     pokemon.hp = pokeDetail.stats[0].base_stat
     pokemon.attack = pokeDetail.stats[1].base_stat
     pokemon.defense = pokeDetail.stats[2].base_stat
