@@ -31,7 +31,7 @@ function loadPokemonItens(offset, limit) {
                             alt="${pokemon.name}">
                     </div>
                     <button class="btnDetails" id="${pokemon.number}">
-                        detalhes
+                        Details
                     </button>
                 </li>
             </div>
